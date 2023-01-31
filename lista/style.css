@@ -1,0 +1,14 @@
+ul li {
+    cursor: pointer;
+    list-style: none;
+    background-color: black;
+    font-size: 32px;
+}
+
+ul li:nth-child(odd) {
+    background-color: purple transparent;
+}
+
+ul li:hover {
+    background-color: pink;
+}
